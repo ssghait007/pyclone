@@ -1,6 +1,10 @@
 # PyCLONE
 Tool for automating daily activities
-
+**Feature:**
+how to create installable python module
+explained with two real use cases  
+1. If you have joined an organisation, calculate since how many days you are there
+2. Automate opening your favourite digital epaper ( its just automating 3 4 clicks to 1 command ) 
 **Instructions to use:**
 
  1. Clone the repo
@@ -25,5 +29,9 @@ python setup.py install
  ```
  6. Run module from any path on cmd 
  ```
- python -m pyclone
+ python -m pyclone daysincompany 0
+ or
+ python -m pyclone paper ak    
+
  ```
+ [ak, bul, lk] are codename I have given to papers you can modify that.
