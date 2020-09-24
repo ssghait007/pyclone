@@ -1,17 +1,3 @@
-# import argparse
-# from pyfiglet import Figlet
-# f = Figlet(font='stop')
-# print( f.renderText('pyclone'))
-
-# parser = argparse.ArgumentParser(description='Add some integers.')
-# parser.add_argument('integers', metavar='N', type=int, nargs='+',
-#                     help='interger list')
-# parser.add_argument('--sum', action='store_const',
-#                     const=sum, default=max,
-#                     help='sum the integers (default: find the max)')
-# args = parser.parse_args()
-# print(args.sum(args.integers))
-
 from colorama import Fore, Back, Style
 import sys
 import argparse
@@ -29,13 +15,13 @@ def main():
     print( f.renderText('pyclone'))
     parser = argparse.ArgumentParser(description='Automate daily stuff')
     parser.add_argument(
-        'action', choices=['daysincompany', 'paper'], help='get duration in cc')
+        'action', choices=['daysincompany', 'paper'], help='get duration in company')
     parser.add_argument("value",
                         help="value of 2nd argument")
 
     args = parser.parse_args()
     if args.action == "daysincc":
-        days_in_cc()
+        days_in_company()
     elif args.action == "paper":
         read_paper(args.value)
     else:
@@ -70,7 +56,7 @@ def read_paper(ptype=''):
     zoom_btn.click()
 
 
-def days_in_cc():
+def days_in_company():
     today = datetime.date.today()
     # Replace date with your joining date
     joining_day = datetime.date(2018, 12, 12)
