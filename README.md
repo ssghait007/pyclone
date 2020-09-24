@@ -35,4 +35,8 @@ python setup.py install
 
  ```
  [ak, bul, lk] are codename I have given to papers you can modify that.
- ![cli](/images/cli.JPG)
+
+
+![cli](/images/cli.JPG)
+
+![result](/images/result.JPG)
