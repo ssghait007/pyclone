@@ -1,0 +1,5 @@
+pyclone.egg-info/
+dist/
+build/
+geckodriver.log
+__pycache__/
