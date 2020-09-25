@@ -6,7 +6,7 @@ Tool for automating daily activities
 how to create installable python module
 explained with two real use cases  
 1. If you have joined an organisation, calculate since how many days you are there
-2. Automate opening your favourite digital epaper ( its just automating 3 4 clicks to 1 command ) 
+2. Automate opening your favourite digital epaper ( its just automating opening browser and some clicks to 1 command ) 
 
 
 **Instructions to use:**
