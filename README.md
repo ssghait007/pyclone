@@ -40,7 +40,5 @@ python setup.py install
  ```
  [ak, bul, lk] are codename I have given to papers you can modify that.
 
-when you run the command below
-![cli](/images/cli.JPG)
-this is final result, browser opened with window maximised and paper zoomed 
-![result](/images/result.JPG)
+Demo of cli with gif
+![screengrab](/images/sg.gif)
