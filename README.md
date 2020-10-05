@@ -52,5 +52,4 @@ python -m pyclone paper ak
 
 ### Demo
 
-<br/>
 ![screengrab](/images/sg.gif)
